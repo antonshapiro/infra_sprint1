@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-token = os.getenv('TOKEN')
+token = os.getenv('TOKEN','default key')
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
